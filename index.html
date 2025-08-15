@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Glowy Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg">
+    <div class="particles" aria-hidden="true"></div>
+  </div>
+
+  <div class="topbar">
+    <div class="brand">
+      <h1>Calc•Glo</h1>
+      <small>scientific</small>
+    </div>
+    <div class="controls">
+      <button id="themeBtn" class="pill">🌙 Dark</button>
+      <button id="angleBtn" class="pill">deg</button>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="calc-card">
+      <div class="screen">
+        <div id="expr" class="expr"></div>
+        <input id="result" class="result" readonly aria-label="calculator result">
+      </div>
+
+      <div class="btn-grid">
+        <!-- same buttons as before -->
+        <!-- scientific row -->
+        <button class="btn func" data-val="(">(</button>
+        <button class="btn func" data-val=")">)</button>
+        <button class="btn func" data-fn="pi">π</button>
+        <button class="btn op" data-val="^">xʸ</button>
+
+        <button class="btn func" data-fn="sin">sin</button>
+        <button class="btn func" data-fn="cos">cos</button>
+        <button class="btn func" data-fn="tan">tan</button>
+        <button class="btn op" data-val="/">÷</button>
+
+        <button class="btn func" data-fn="asin">asin</button>
+        <button class="btn func" data-fn="acos">acos</button>
+        <button class="btn func" data-fn="atan">atan</button>
+        <button class="btn op" data-val="*">×</button>
+
+        <button class="btn func" data-fn="ln">ln</button>
+        <button class="btn func" data-fn="log">log</button>
+        <button class="btn func" data-fn="sqrt">√</button>
+        <button class="btn op" data-val="%">%</button>
+
+        <button class="btn num" data-val="7">7</button>
+        <button class="btn num" data-val="8">8</button>
+        <button class="btn num" data-val="9">9</button>
+        <button class="btn op" data-val="-">−</button>
+
+        <button class="btn num" data-val="4">4</button>
+        <button class="btn num" data-val="5">5</button>
+        <button class="btn num" data-val="6">6</button>
+        <button class="btn op" data-val="+">+</button>
+
+        <button class="btn num" data-val="1">1</button>
+        <button class="btn num" data-val="2">2</button>
+        <button class="btn num" data-val="3">3</button>
+        <button class="btn func" data-fn="fact">n!</button>
+
+        <button class="btn num" data-val="0">0</button>
+        <button class="btn num" data-val=".">.</button>
+        <button class="btn func" data-fn="exp">exp</button>
+        <button id="eq" class="btn equal">=</button>
+
+        <button id="ac" class="btn soft">AC</button>
+        <button id="del" class="btn soft">⌫</button>
+        <button id="ans" class="btn soft">Ans</button>
+        <button id="copy" class="btn soft">Copy</button>
+      </div>
+
+      <div class="history" id="history">
+        <h4>History</h4>
+        <ul id="hlist"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
