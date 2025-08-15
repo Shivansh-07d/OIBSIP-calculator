@@ -6,10 +6,7 @@ This project was created as part of my internship at **Oasis Infobyte (OIBSIP)**
 ---
 ## 📸 Preview![Scientific Calculator Screenshot]
 
-(<img width="366" height="781" alt="image" src="https://github.com/user-attachments/assets/53bff916-c709-4ffe-bd92-7468f2f40e39" /> 
-
-
- <img width="410" height="801" alt="image" src="https://github.com/user-attachments/assets/05f87ae6-b947-46ed-a04b-dd9a0238838e" />
+<img width="366" height="781" alt="image" src="https://github.com/user-attachments/assets/53bff916-c709-4ffe-bd92-7468f2f40e39" /><img width="410" height="801" alt="image" src="https://github.com/user-attachments/assets/05f87ae6-b947-46ed-a04b-dd9a0238838e"/>
  
 
 ## 🚀 Live Demo
